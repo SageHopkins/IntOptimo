@@ -1,0 +1,4 @@
+Ideas:
+Slimmed down HTML and CSS coding. (Call htmLite)
+  Browser that can read the Slimmed down html coding and css coding.
+Submit to W3C after it has been completed and proven.
