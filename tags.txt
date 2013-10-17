@@ -1,0 +1,26 @@
+Tags with special parameters like <a href=""></a> will not have be able to be reduce to HTMLite (in this version), but still work.
+
+Header:
+<h# text here> - 14 bytes
+Compared to <h#>text here</h#> - 18 bytes
+
+Paragraph:
+<p text here> - 13 bytes
+Compared to <p>text here</p> - 16 bytes
+
+A Tags:
+<a text here> - 13 bytes
+Compared to <a>text here</a> - 16 bytes
+
+Bold:
+<b text here> - 13 bytes
+Compared to <b>text here</b> - 16 bytes
+Can be placed within other tags.
+
+Division:
+<div class="class here"; Content here> - 38 bytes
+                       ^ Closes the parameters of the DIV
+Compared to <div class="class here">Content here</div> - 42 bytes
+
+
+**More to come soon.**
